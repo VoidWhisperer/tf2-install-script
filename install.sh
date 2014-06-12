@@ -1,5 +1,15 @@
 #!/bin/sh
 ip="162.210.36.172"
+echo "Checking for unzip - required to install some things"
+zip=`dpkg --get-selections | grep unzip`
+if [ "$zip" = "" ]; then
+	echo "unzip not found, attempting to install - you will need to either be root or know your password for sudo"
+	echo "If this results in an error, you need to contact the administrator of your server to get unzip installed"
+	sudo apt-get install unzip
+else
+	echo "unzip found"
+fi
+echo ""
 echo "Game type? (CS:GO or TF2)"
 read gametype
 echo "Server name?"
