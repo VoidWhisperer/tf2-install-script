@@ -31,3 +31,8 @@ KNOWN ISSUES:
 Game types need to be in all caps
 
 CS:GO Doesn't work due to some bug or another.
+
+
+TODO:
+
+Add the rest of the leagues' competitive configs to the TF2 installation
