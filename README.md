@@ -5,6 +5,7 @@ Install script for TF2
 
 
 How to use:
+
 1. Run the script, it will prompt you to enter the name of the server (this is used for screen name and directory name)
 
 2. Enter the name
