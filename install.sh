@@ -1,5 +1,5 @@
 #!/bin/sh
-ip="162.210.36.172"
+ip="IPHERE"
 echo "Checking for unzip - required to install some things"
 zip=`dpkg --get-selections | grep unzip`
 if [ "$zip" = "" ]; then
