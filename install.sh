@@ -66,6 +66,10 @@ if [ "$gametype" = "TF2" ]; then
 	unzip UGC_6v6*
 	wget http://ugcleague.com/files/configs/UGC_HL_cfg_and_whitelist_v050714.zip
 	unzip UGC_HL*
+	mkdir whitelists
+	cd whitelists
+	wget https://raw.githubusercontent.com/ozfortress/server-configs/master/cfg/whitelists/owl.txt --no-check-certificate
+	cd ..
 	echo "Configs installed"
 	cd maps
 	wget http://downloads.tf2center.com/tf/maps/koth_pro_viaduct_rc4.bsp
