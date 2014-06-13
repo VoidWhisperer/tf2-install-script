@@ -67,7 +67,7 @@ if [ "$gametype" = "TF2" ]; then
 	wget http://ugcleague.com/files/configs/UGC_HL_cfg_and_whitelist_v050714.zip
 	unzip UGC_HL*
 	echo "Configs installed"
-	cd maps
+	cd ../maps
 	wget http://downloads.tf2center.com/tf/maps/koth_pro_viaduct_rc4.bsp
 	wget http://downloads.tf2center.com/tf/maps/koth_ashville_rc1.bsp
 	wget http://downloads.tf2center.com/tf/maps/koth_coalplant_b7.bsp
